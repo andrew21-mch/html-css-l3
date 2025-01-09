@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+nav {
+    background-color: green;
+}
+
+.nav-a {
+    color: white;
+    text-decoration: none;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+img {
+    border-radius: 50%;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" class="nav-a">Home</a></li>
+        <li><a href="#" class="nav-a">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Profile Information -->
+    <section>
+      <h1>Personal Profile</h1>
+      <h2>John Doe</h2>
+      <div class="image-container">
+        <img class="img" id="img" src="https://via.placeholder.com/150" alt="John Doe's Picture" />
+      </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section>
+      <h3>Contact Information</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Contact Type</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Email</td>
+            <td>johndoe@example.com</td>
+          </tr>
+          <tr>
+            <td>Phone</td>
+            <td>+1234567890</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Biography Section -->
+    <section>
+      <h3>Biography</h3>
+      <p>
+        Hi, my name is John Doe. I am a data analyst and a father of two. 
+        Working from home is sometimes very challenging but also fun, 
+        as I get to spend enough time with my family.
+      </p>
+    </section>
+
+    <!-- Favorite Websites -->
+    <section>
+      <h3>Favorite Websites</h3>
+      <ol>
+        <li><a href="https://www.google.com/">Google</a></li>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.w3.org/">W3C</a></li>
+      </ol>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+      <h3>Skills</h3>
+      <ul>
+        <li>Python</li>
+        <li>Microsoft Office</li>
+        <li>Monitoring & Evaluation (M&E)</li>
+      </ul>
+    </section>
+
+    <!-- Feedback Form -->
+    <section>
+      <h3>User Feedback</h3>
+      <form>
+        <!-- Name Input -->
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <!-- Gender Selection -->
+        <p>Gender:</p>
+        <input type="radio" id="female" name="gender" value="Female" />
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male">Male</label><br /><br />
+
+        <!-- Hobbies Selection -->
+        <p>Hobbies:</p>
+        <input type="checkbox" id="read" name="hobbies" value="Reading" />
+        <label for="read">Reading</label>
+        <input type="checkbox" id="travel" name="hobbies" value="Traveling" />
+        <label for="travel">Traveling</label>
+        <input type="checkbox" id="cook" name="hobbies" value="Cooking" />
+        <label for="cook">Cooking</label><br /><br />
+
+        <!-- Feedback Textarea -->
+        <label for="feedback">Feedback:</label><br />
+        <textarea id="feedback" name="feedback" rows="5" cols="30"></textarea><br /><br />
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; Ella_Tieh</p>
+  </footer>
+
+</body>
+</html>

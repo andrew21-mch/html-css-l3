@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>center</title>
+    <style>
+      .card {
+        width: 100%;
+        box-shadow: 1px 1px  #541f1f;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+      }
+
+
+      display: grid 
+      aligh-items: center
+
+      
+      .form-container {
+        padding: 15px;
+        margin-top: 5%;
+      }
+
+      .form-container input {
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid gray;
+        height: 20px;
+      }
+
+      .form-container button {
+        width: 100%;
+        margin-top: 10px;
+        height: 20px;
+        background-color: #4cb050;
+        color: white;
+        border: 1px solid rgb(125, 26, 26);
+      }
+
+
+      .card h1 {
+        text-align: center;
+      }
+      #submit-button {
+        background-color: #4cb050;
+        color: white;
+        border: 1px solid rgb(125, 26, 26);
+      }
+
+      #submit-button:hover{
+        height: 40px;
+        background-color: #661861;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Welcome</h1>
+        <h2>John Doe</h2>
+      </div>
+
+      <form action="" method="post" class="card form-container">
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" /><br />
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+    </div>
+  </body>
+
+</html>
