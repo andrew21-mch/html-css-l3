@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- inline: including js directly in your tag --> 
+     <button onclick="alert('You clicked me')">Button</button>
+
+     <button onclick="sayHello()">Button 2</button>
+
+     <!-- Internal Js: including the js in the script tag -->
+      <script>
+        function sayHello(){
+            alert('Hello From Button 2');
+            
+        }
+
+        console.log(document)
+      </script>
+
+        <!-- External Js: including the js in the external file -->
+    <script src="variable.js"></script>
+</body>
+</html>
